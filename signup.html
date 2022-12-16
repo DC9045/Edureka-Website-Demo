@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fontstyle.css">
+    <style>
+        body{
+            font-family: "Lobster Font";
+        }
+        footer{
+            margin-top: 40px;
+        }
+        a{
+            cursor: pointer;
+        }
+        .noClick {
+            pointer-events: none;
+            cursor: default;
+        }
+    </style>
+    <title>Edureka - Signup</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">edureka!</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="our-story.html">Our Story</a>
+                    </li>
+                    <li>
+                        <a href="courses.html">Courses</a>
+                    </li>
+                    <li class="active noClick">
+                        <a href="signup.html">Signup</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>   
+        </div>
+    </nav>    
+        
+        <div class="container" style="margin-top: 50px;">            
+            <div class="row">                
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <h2>Not yet registered ?</h2><hr/>
+                    <h3>Signup</h3><hr/>                    
+                    <form class="form-horizontal">                            
+                        <div class="form-group">
+                            <label for="name" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Name </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="text" id="name" class="form-control" placeholder="Enter your name...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Email </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="email" id="email" class="form-control" placeholder="Enter your email...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Password </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="password" id="password" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="confirm-password" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Confirm </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="password" id="confirm-password" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Position </label>
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="option1">Web Developer
+                                </label>
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="option2">Data Scientist
+                                </label> 
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="option3">Beginner
+                                </label> 
+                                <label class="checkbox-inline">
+                                    <input type="checkbox" value="option4">Geek who do all the shits ...
+                                </label>                                 
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+                                <button type="reset" class="btn btn-default">Reset</button>
+                                <button type="submit" class="btn btn-primary">Sign Up </button> 
+                            </div>
+                        </div>
+                    </form>                    
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <h2>Already have an account</h2><hr/>
+                    <h3>Login</h3><hr/>
+                    <form class="form-horizontal">                            
+                        <div class="form-group">
+                            <label for="email" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Username </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="email" id="email" class="form-control" placeholder="Username or Email...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-xs-2 col-sm-2 col-md-2 col-lg-2 control-label">Password </label>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <input type="password" id="password" class="form-control">
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="form-group">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+                                <button type="reset" class="btn btn-default">Reset</button>
+                                <button type="submit" class="btn btn-primary">Sign In </button> 
+                            </div>
+                        </div>
+                    </form>      
+                </div>                
+            </div>            
+        </div>
+        
+    <footer>
+        <div class="container">
+            <div class="text-center">
+                <p>Copyright &copy; 2015 Brain4ce Education Solutions Pvt. Ltd. All rights reserved. 
+                    <a data-toggle="modal" href='#modal-id' style="text-decoration: none;">Terms and Conditions</a>
+                </p>
+            </div>
+            <div class="modal fade" id="modal-id">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h2 class="modal-title">Terms and conditions</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                We are a team of tech enthusiats who are determined to make learning easy for everyone. At edureka we believe in awesome work, to make sure we provide a great learning experience to our users.
+                                <div></div>
+                                Learning is meant to be an enjoyable activity and we put our best to turn it into that.
+                                If you think the same come <a href="signup.html" style="text-decoration: none;">join us</a>
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </footer>
+
+    <script src="bootstrap/js/jquery-1.11.3.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/Font Awsome.js"></script>
+</body>
+</html>
